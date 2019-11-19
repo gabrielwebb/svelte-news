@@ -42,10 +42,18 @@
 
 {#each articles as article}
   <div class="card">
-    <img src={article.urlToImage} alt="Article Image" />
+    {#if article.urlToImage === null}
+      <br />
+    {:else}
+      <img src={article.urlToImage} alt="Article Image" />
+    {/if}
     <div class="card-body">
       <h3>{article.title}</h3>
-      <p>{article.description}</p>
+      {#if article.description === null}
+        <p />
+      {:else}
+        <p>{article.description}</p>
+      {/if}
       <a href={article.url}>Read story</a>
     </div>
   </div>
