@@ -5,10 +5,7 @@
 </script>
 
 <style>
-  * {
-    font-family: "Gilda Display", serif;
-  }
-  .container {
+  div {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
     grid-gap: 15px;
@@ -16,12 +13,7 @@
   }
 </style>
 
-<div class="header">
-
-  <Header />
-</div>
-
-<div class="container">
+<Header />
+<div>
   <Article />
-
 </div>

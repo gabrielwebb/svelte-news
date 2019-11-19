@@ -1,6 +1,6 @@
 <style>
   h1 {
-    font-family: "Gilda Display", serif;
+    font-family: "Cinzel Decorative", cursive;
     font-size: 2.5rem;
     text-align: center;
     border-bottom: 8px solid black;
