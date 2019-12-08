@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   //// variables
   const API_KEY = "f1208f5af13143ccb46e6f92a4fae85e";
-  const URL = `https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=${API_KEY}`;
+  const URL = `https://newsapi.org/v2/everything?q=apple&from=2019-12-07&to=2019-12-07&sortBy=popularity=&apiKey=${API_KEY}`;
   let articles = [];
 
   ///async
